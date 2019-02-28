@@ -14,6 +14,7 @@
 		1F6FFFDA222861330029CC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FFFD8222861330029CC7C /* LaunchScreen.storyboard */; };
 		1F6FFFE5222861330029CC7C /* StrikerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FFFE4222861330029CC7C /* StrikerTests.swift */; };
 		1F6FFFF0222861330029CC7C /* StrikerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FFFEF222861330029CC7C /* StrikerUITests.swift */; };
+		1F6FFFFE2228970B0029CC7C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FFFFD2228970B0029CC7C /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1F6FFFEB222861330029CC7C /* StrikerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrikerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6FFFEF222861330029CC7C /* StrikerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikerUITests.swift; sourceTree = "<group>"; };
 		1F6FFFF1222861330029CC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6FFFFD2228970B0029CC7C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1F6FFFCF222861320029CC7C /* AppDelegate.swift */,
 				1F6FFFD1222861320029CC7C /* ViewController.swift */,
 				1F6FFFD3222861320029CC7C /* Main.storyboard */,
+				1F6FFFFD2228970B0029CC7C /* Login.storyboard */,
 				1F6FFFD6222861330029CC7C /* Assets.xcassets */,
 				1F6FFFD8222861330029CC7C /* LaunchScreen.storyboard */,
 				1F6FFFDB222861330029CC7C /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6FFFFE2228970B0029CC7C /* Login.storyboard in Resources */,
 				1F6FFFDA222861330029CC7C /* LaunchScreen.storyboard in Resources */,
 				1F6FFFD7222861330029CC7C /* Assets.xcassets in Resources */,
 				1F6FFFD5222861320029CC7C /* Main.storyboard in Resources */,
