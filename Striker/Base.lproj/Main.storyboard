@@ -31,6 +31,9 @@
                                         <state key="normal" title="Account">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ODV-VT-mAc" kind="show" id="UtD-AE-yU9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neW-mJ-icf">
                                         <rect key="frame" x="0.0" y="55" width="75" height="40"/>
@@ -38,6 +41,9 @@
                                         <state key="normal" title="Settings">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="RzB-Jn-SLv" kind="show" id="R4E-3A-qNp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaD-dh-05J">
                                         <rect key="frame" x="0.0" y="110" width="43" height="40"/>
@@ -45,6 +51,9 @@
                                         <state key="normal" title="Help">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="M6B-v4-C44" kind="show" id="eme-EU-tCf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -63,6 +72,9 @@
                                                 <state key="normal" title="Profile" image="Profile Button">
                                                     <color key="titleShadowColor" red="0.8553786874" green="0.497236073" blue="0.23520395159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="G6T-KL-TAH" kind="show" id="5NE-3S-nst"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbo-XZ-FaL">
                                                 <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
@@ -126,6 +138,14 @@
             </objects>
             <point key="canvasLocation" x="3532" y="554"/>
         </scene>
+        <!--ProfileController-->
+        <scene sceneID="IXY-q0-hPs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" referencedIdentifier="ProfileController" id="G6T-KL-TAH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WE1-3l-Hzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4422" y="373"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cjh-DJ-COc">
             <objects>
@@ -143,6 +163,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0c-3j-MVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1785" y="554"/>
+        </scene>
+        <!--SettingsController-->
+        <scene sceneID="Rvl-WU-ni8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsController" id="RzB-Jn-SLv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lla-2R-VNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2900" y="334"/>
+        </scene>
+        <!--AccountController-->
+        <scene sceneID="LC1-8A-eeY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Account" referencedIdentifier="AccountController" id="ODV-VT-mAc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5O6-Ne-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2905" y="423"/>
+        </scene>
+        <!--HelpController-->
+        <scene sceneID="i2W-cG-ppv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Help" referencedIdentifier="HelpController" id="M6B-v4-C44" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nLP-Oc-nxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2881" y="515"/>
         </scene>
         <!--LoginController-->
         <scene sceneID="Tly-ED-CwI">

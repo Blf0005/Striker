@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6F000022289D390029CC7C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FFFFF22289D390029CC7C /* Profile.storyboard */; };
+		1F6F000222289D530029CC7C /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F000122289D530029CC7C /* Settings.storyboard */; };
+		1F6F000422289D6E0029CC7C /* Sensor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F000322289D6E0029CC7C /* Sensor.storyboard */; };
+		1F6F000622289FD10029CC7C /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F000522289FD10029CC7C /* Account.storyboard */; };
+		1F6F00082228A0370029CC7C /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F00072228A0370029CC7C /* Help.storyboard */; };
 		1F6FFFD0222861320029CC7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FFFCF222861320029CC7C /* AppDelegate.swift */; };
 		1F6FFFD2222861320029CC7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FFFD1222861320029CC7C /* ViewController.swift */; };
 		1F6FFFD5222861320029CC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FFFD3222861320029CC7C /* Main.storyboard */; };
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6F000122289D530029CC7C /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		1F6F000322289D6E0029CC7C /* Sensor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sensor.storyboard; sourceTree = "<group>"; };
+		1F6F000522289FD10029CC7C /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		1F6F00072228A0370029CC7C /* Help.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
 		1F6FFFCC222861320029CC7C /* Striker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Striker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6FFFCF222861320029CC7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6FFFD1222861320029CC7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		1F6FFFEF222861330029CC7C /* StrikerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikerUITests.swift; sourceTree = "<group>"; };
 		1F6FFFF1222861330029CC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F6FFFFD2228970B0029CC7C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1F6FFFFF22289D390029CC7C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				1F6FFFCF222861320029CC7C /* AppDelegate.swift */,
 				1F6FFFD1222861320029CC7C /* ViewController.swift */,
 				1F6FFFD3222861320029CC7C /* Main.storyboard */,
+				1F6F00072228A0370029CC7C /* Help.storyboard */,
+				1F6F000522289FD10029CC7C /* Account.storyboard */,
+				1F6FFFFF22289D390029CC7C /* Profile.storyboard */,
+				1F6F000122289D530029CC7C /* Settings.storyboard */,
+				1F6F000322289D6E0029CC7C /* Sensor.storyboard */,
 				1F6FFFFD2228970B0029CC7C /* Login.storyboard */,
 				1F6FFFD6222861330029CC7C /* Assets.xcassets */,
 				1F6FFFD8222861330029CC7C /* LaunchScreen.storyboard */,
@@ -233,8 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6FFFFE2228970B0029CC7C /* Login.storyboard in Resources */,
+				1F6F00082228A0370029CC7C /* Help.storyboard in Resources */,
 				1F6FFFDA222861330029CC7C /* LaunchScreen.storyboard in Resources */,
+				1F6F000022289D390029CC7C /* Profile.storyboard in Resources */,
+				1F6F000422289D6E0029CC7C /* Sensor.storyboard in Resources */,
+				1F6F000222289D530029CC7C /* Settings.storyboard in Resources */,
 				1F6FFFD7222861330029CC7C /* Assets.xcassets in Resources */,
+				1F6F000622289FD10029CC7C /* Account.storyboard in Resources */,
 				1F6FFFD5222861320029CC7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
